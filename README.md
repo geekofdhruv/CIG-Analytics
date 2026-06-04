@@ -69,9 +69,7 @@ Where relevant, **control for observable external factors** such as weather cond
 ```
 CIG-Analytics/
 ├── Dataset/                        # Raw data (gitignored)
-├── notebooks/                      # Jupyter notebooks for analysis
-├── src/                            # Python modules and utilities
-├── output/                         # Generated results and visualizations
+├── analysis.ipynb                  # Single notebook for all analysis
 ├── .gitignore
 └── README.md
 ```
@@ -79,7 +77,8 @@ CIG-Analytics/
 ## Getting Started
 
 1. Clone the repository
-2. Download the dataset from the [Google Sheets link](https://docs.google.com/spreadsheets/d/1saBuyrZ9JqZ4gMfUS9XPXMFbl9BN5Erj/edit?usp=sharing&ouid=116405649123253020989&rtpof=true&sd=true) and place it in the `Dataset/` directory
-3. Create a virtual environment: `python -m venv venv`
-4. Activate: `venv\Scripts\activate` (Windows) or `source venv/bin/activate` (macOS/Linux)
-5. Install dependencies: `pip install -r requirements.txt`
+2. Create a virtual environment: `python -m venv venv`
+3. Activate: `venv\Scripts\activate` (Windows) or `source venv/bin/activate` (macOS/Linux)
+4. Install dependencies: `pip install -r requirements.txt`
+5. Download the dataset from the [Google Sheets link](https://docs.google.com/spreadsheets/d/1saBuyrZ9JqZ4gMfUS9XPXMFbl9BN5Erj/edit?usp=sharing&ouid=116405649123253020989&rtpof=true&sd=true) and place it in the `Dataset/` directory
+6. Open `analysis.ipynb` in Jupyter: `jupyter notebook analysis.ipynb`
