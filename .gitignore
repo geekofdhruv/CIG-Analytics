@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment Variables
+.env
+.env.local
+
+# Data (large/raw files)
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Keep dataset directory structure but ignore large data files
+# Dataset source is referenced in README via Google Sheets link
+
+# Output / Generated
+output/
+results/
+figures/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Logs
+*.log
+
+# Cache
+.cache/
